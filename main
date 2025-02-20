@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>НейроПрокачка – вебинар для себя и работы</title>
+  <style>
+    /* Базовые стили */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #1380ec;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #fff;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* Баннер с призывом к действию */
+    .banner {
+      background: url('banner-image.jpg') no-repeat center center;
+      background-size: cover;
+      height: 600px;
+      position: relative;
+    }
+    .banner-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+    .banner-content h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .banner-content p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .banner-content a {
+      display: inline-block;
+      background-color: #1380ec;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+    /* Общие секции */
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .section h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .section p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+    /* Форма регистрации */
+    .registration-form {
+      background-color: #f5f5f5;
+      padding: 40px;
+      max-width: 500px;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+    .registration-form input,
+    .registration-form button {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .registration-form button {
+      background-color: #1380ec;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    /* Футер */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Шапка сайта с навигацией -->
+  <header>
+    <h1>НейроПрокачка</h1>
+    <nav>
+      <a href="#about">О вебинаре</a>
+      <a href="#ideas">Идеи заработка</a>
+      <a href="#register">Регистрация</a>
+    </nav>
+  </header>
+  
+  <!-- Баннер с основным посланием -->
+  <div class="banner">
+    <div class="banner-content">
+      <h2>НейроПрокачка для себя и работы</h2>
+      <p>30+ идей для заработка с использованием нейросетей</p>
+      <a href="#register">Зарегистрироваться</a>
+    </div>
+  </div>
+  
+  <!-- Секция "О вебинаре" -->
+  <section id="about" class="section">
+    <h3>О вебинаре</h3>
+    <p>
+      Вебинар «НейроПрокачка» создан для тех, кто стремится освоить передовые технологии искусственного интеллекта для личного развития и карьерного роста. Практические кейсы, живые примеры и уникальные методики помогут вам применить ИИ в работе и найти новые источники дохода.
+    </p>
+  </section>
+  
+  <!-- Секция "Идеи заработка" -->
+  <section id="ideas" class="section">
+    <h3>30+ идей для заработка</h3>
+    <p>
+      На вебинаре мы рассмотрим более 30 креативных способов монетизации навыков работы с нейросетями. От автоматизации бизнес-процессов до создания инновационных продуктов – каждый найдет для себя подходящую идею.
+    </p>
+  </section>
+  
+  <!-- Секция регистрации -->
+  <section id="register" class="section">
+    <h3>Регистрация на вебинар</h3>
+    <div class="registration-form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Ваш email" required>
+      <button type="submit">Зарегистрироваться</button>
+    </div>
+  </section>
+  
+  <!-- Футер -->
+  <footer>
+    <p>© 2025 НейроПрокачка. Все права защищены.</p>
+  </footer>
+</body>
+</html>
